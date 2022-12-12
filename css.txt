@@ -1,3 +1,4 @@
+
 /**作者图标旋转*/
 .autohr-img-border{
 -webkit-transition:0.4s;
@@ -12,39 +13,32 @@ transform:rotateZ(360deg);
 }
 /**作者图标旋转*/
 
-
-
 /**彩色滚动条样式*/
 ::-webkit-scrollbar {
-  width: 10px;  
-  height: 1px;
-}
+    width: 8px;}
 ::-webkit-scrollbar-thumb {
-  background-color: #12b7f5;
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 93, 143, 1) 25%, transparent 25%, transparent 50%, rgba(255, 93, 143, 1) 50%, rgba(255, 93, 143, 1) 75%, transparent 75%, transparent);
+	background-color: rgb(38, 48, 88);
+	background-image: -webkit-linear-gradient(45deg,#009688 25%,#368c84 25%,#8BC34A 50%,#9dd45d 50%,#FFEB3B 75%,#FFEB3B 75%,#FF9800);
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    border-radius: 5em;
 }
+
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
-    background: #f6f6f6;
+     background-color: #fff;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    border-radius: 5em;
+    border: 1px solid #ccc;
 }
 /**彩色滚动条样式*/
 
-/*背景图*/
-body {background: var(--body-bg-color);} :root{--body-bg-color:url(/img/background.png) top fixed;}
 
 
-/*左边联系站长 css 开始*/
-.contact-help{color:#09ace2;position: fixed; z-index: 101; left: 0; top: calc(50% - 30px); margin-top: -36px; width: 28px; height: 72px; transition: all .3s; font-size: 12px;background: var(--main-bg-color);border-radius: 0 5px 5px 0; padding: 8px 7px; line-height: 14px;}@media screen and (max-width: 768px){.contact-help{display:none;}}
-/*左边联系站长 css 开始*/
-
-
-
-
-/*无滚动条*/
-::-webkit-scrollbar{
-  display:none;
+/**背景图 
+body {background: var(--body-bg-color);} :root{--body-bg-color:url(/img/bj.png) top fixed;
 }
-
+*/
 
 
 
@@ -53,3 +47,13 @@ body {background: var(--body-bg-color);} :root{--body-bg-color:url(/img/backgrou
 @font-face{font-family:'Meslo LG';font-style:normal;font-size:18px;src:local('Meslo LG S'),url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-52cc7ff7-fc64-49e7-b0a0-1dc090ee49a2/58d1ca58-60f0-454e-9f63-f802732a7078.woff2) format('woff2')}
 *{font-family:Meslo LG;}
 
+
+
+/*头像呼吸光环和鼠标悬停旋转放大
+.author align-items-center mb-2{border-radius: 100%; animation: light 4s ease-in-out infinite; transition: 0.5s;}.author align-items-center mb-2:hover{transform: scale(1.15) rotate(720deg);}@keyframes light{0%{box-shadow: 0 0 4px #f00;} 25%{box-shadow: 0 0 16px #0f0;} 50%{box-shadow: 0 0 4px #00f;} 75%{box-shadow: 0 0 16px #0f0;} 100%{box-shadow: 0 0 4px #f00;}}
+*/
+
+/*无滚动条*/
+::-webkit-scrollbar{
+  display:none;
+}
