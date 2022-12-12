@@ -48,5 +48,5 @@ if(!empty($t_url)) {
             <span class="loader-text">页面加载中，请稍候...</span>
         </div>
     </div>
-	</body>
+</body>
 </html>
