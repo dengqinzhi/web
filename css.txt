@@ -1,12 +1,12 @@
 
 /**作者图标旋转*/
-.autohr-img-border{
+.avatar{
 -webkit-transition:0.4s;
 -webkit-transition:-webkit-transform 0.4s ease-out;
 transition:transform 0.4s ease-out;
 -moz-transition:-moz-transform 0.4s ease-out;
 }
-.autohr-img-border:hover{
+.avatar:hover{
 transform:rotateZ(360deg);
 -webkit-transform:rotateZ(360deg);
 -moz-transform:rotateZ(360deg);
@@ -41,19 +41,34 @@ body {background: var(--body-bg-color);} :root{--body-bg-color:url(/img/bj.png) 
 */
 
 
-
-
-/*鸿蒙字体*/
-@font-face{font-family:'Meslo LG';font-style:normal;font-size:18px;src:local('Meslo LG S'),url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-52cc7ff7-fc64-49e7-b0a0-1dc090ee49a2/58d1ca58-60f0-454e-9f63-f802732a7078.woff2) format('woff2')}
+/*更换字体*/
+@font-face{font-family:'Meslo LG';font-style:normal;font-size:18px;src:local('Meslo LG S'),url(/img/font/hm.woff2) format('woff2')}
 *{font-family:Meslo LG;}
 
+https://cdn.jsdelivr.net/gh/dengqinzhi/font/3.woff2
 
 
-/*头像呼吸光环和鼠标悬停旋转放大
-.author align-items-center mb-2{border-radius: 100%; animation: light 4s ease-in-out infinite; transition: 0.5s;}.author align-items-center mb-2:hover{transform: scale(1.15) rotate(720deg);}@keyframes light{0%{box-shadow: 0 0 4px #f00;} 25%{box-shadow: 0 0 16px #0f0;} 50%{box-shadow: 0 0 4px #00f;} 75%{box-shadow: 0 0 16px #0f0;} 100%{box-shadow: 0 0 4px #f00;}}
-*/
 
-/*无滚动条*/
+/*头像呼吸光环和鼠标悬停旋转放大*/
+.headerlogo{border-radius: 100%; animation: light 4s ease-in-out infinite; transition: 0.5s;}
+.headerlogo:hover{transform: scale(1.15) rotate(720deg);}
+@keyframes logo{0%{box-shadow: 0 0 4px #f00;} 25%{box-shadow: 0 0 16px #0f0;} 50%{box-shadow: 0 0 4px #00f;} 75%{box-shadow: 0 0 16px #0f0;} 100%{box-shadow: 0 0 4px #f00;}}
+
+
+/*无滚动条
 ::-webkit-scrollbar{
   display:none;
+}
+*/
+
+
+/*鼠标移动图片外发光*/
+/*by：一只橙子博客-www.shutiaoya.com*/
+.img-fluid:hover {
+box-shadow:0px 0px 8px #63B8FF;
+}
+
+/*背景渐变*/
+body{
+background: linear-gradient(102.7deg,#fddaff 8.2%,#dfadfc 19.6%,#adcdfc 36.8%,#adfcf4 73.2%,#caf8d0 90.9%);
 }
