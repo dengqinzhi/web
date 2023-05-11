@@ -1,0 +1,274 @@
+<style type="text/css">
+.point-time {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 17px;
+  left: 20%;
+  background: #1c87bf;
+  margin-left: -4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #fff;
+}
+.text-red {
+  color: #f6393f;
+}
+.text-blue {
+  color: #1c87bf;
+}
+.text-green {
+  color: #95c91e;
+}
+.text-yellow {
+  color: #ffb902;
+}
+.text-purple {
+  color: #d32d93;
+}
+.point-red {
+  background-color: #f6393f;
+}
+.point-blue {
+  background-color: #1c87bf;
+}
+.point-green {
+  background-color: #95c91e;
+}
+.point-yellow {
+  background-color: #ffb902;
+}
+.point-purple {
+  background-color: #d32d93;
+}
+.content article {
+  position: relative;
+}
+.content article > h3 {
+  width: 15%;
+  height: 20px;
+  line-height: 20px;
+  text-align: right;
+  font-size: 1.4em;
+  color: #1d1d1d;
+  padding: 10px 0 20px;
+}
+.content article section {
+  padding: 0 0 17px;
+  position: relative;
+}
+.content article section:before {
+  content: "";
+  width: 5px;
+  top: 17px;
+  bottom: -17px;
+  left: 20%;
+  background: #e6e6e6;
+  position: absolute;
+}
+.content article section:last-child:before {
+  display: none;
+}
+.content article section time {
+  width: 15%;
+  display: block;
+  position: absolute;
+}
+.content article section time > span {
+  display: block;
+  text-align: right;
+}
+.content article section aside {
+  color: #3a3a38;
+  margin-left: 25%;
+  padding-bottom: 15px;
+}
+.content article section .brief {
+  color: #9f9f9f;
+}
+
+</style>
+
+
+
+<div class="content"><article>
+
+<h3><span class="text-blue">2023年</span></h3>
+
+<section><time datetime="2023-04">
+4月2号
+</time><aside>
+<p class="things"><span class="text-blue"><a href="https://dengqinzhi.github.io/" target="_blank" rel="noopener">“HEXO版博客”</a>上线，试验性应用</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+</aside></section>
+
+<section><time datetime="2023-03">
+3月25号
+</time><aside>
+<p class="things"><span class="text-purple"><a href="#" target="_blank" rel="noopener">百度站长</a>掉了，无法SEO推送，无法搜索，摆烂了</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+</aside></section>
+
+
+<section><time datetime="2023-03">
+3月13号
+</time><aside>
+<p class="things"><span class="text-purple"><a href="https://music.qinzhi.cc" target="_blank" rel="noopener">“爱上音乐”</a>上线</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+</aside></section>
+
+
+</article>
+
+<article>
+<h3><span class="text-yellow">2022年</span></h3>
+
+<section><time datetime="2022-12">
+12月9号
+</time><aside>
+<p class="things"><span class="text-red"><a href="https://qinzhi.cc" target="_blank" rel="noopener">新冠肺炎疫情</a>全国解封</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section>
+
+<section><time datetime="2022-08">
+8月26号
+</time><aside>
+<p class="things"><span class="text-green"><a href="http://tonydeng.hostfree.wang/" target="_blank" rel="noopener">“我的图库”</a>上线</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2022-08">
+8月19号
+</time><aside>
+<p class="things"><span class="text-purple">“<a href="https://qinzhi.cc/map" target="_blank" rel="noopener">“我的足迹”</a>上线</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2022-08">
+8月3号
+</time><aside>
+<p class="things"><span class="text-yellow">“老邓的相册”站失联，放弃（免费空间不靠谱）</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2022-07">
+7月12号
+</time><aside>
+<p class="things"><span class="text-red">ALIST<a href="http://pan.qinzhi.cc" target="_blank" rel="noopener">“共享网盘”</a>程序上线</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2022-06">
+6月26号
+</time><aside>
+<p class="things"><span class="text-purple">“<a href="https://shop.qinzhi.cc" target="_blank" rel="noopener">“邓先生的店”</a>上线”</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2022-06">
+6月14号
+</time><aside>
+<p class="things"><span class="text-yellow">更换域名，“qinzhi.cc"上线</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2022-03">
+3月14号
+</time><aside>
+<p class="things"><span class="text-purple">申请网站备案   <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">陕ICP备2022002237号</a></span></p>
+&nbsp;
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2022-03">
+3月12号
+</time><aside>
+<p class="things"><span class="text-red">购买阿里云服务器</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section></article><!--分隔符-->
+
+<article>
+<h3><span class="text-yellow">2021年</span></h3>
+<section><time datetime="2021-12">
+12月7号
+</time><aside>
+<p class="things"><span class="text-red">增加站点<a href="https://toneydeng.gitee.io" target="_blank" rel="noopener">服务器运行状态</a>页面，实时知晓服务器状态</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2021-11">
+11月12号
+</time><aside>
+<p class="things"><span class="text-purple">增加<a href="https://deng.life" target="_blank" rel="noopener">旗下网站导航站</a>，简单大气，九九归一</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2021-10">
+10月22号
+</time><aside>
+<p class="things"><span class="text-yellow">通过FUSION APP制作了全站的<a href="https://qinzhi.cc/app" target="_blank" rel="noopener">安卓版App</a>,可以下载至手机无缝浏览旗下全部站点</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2020-10">
+10月19号
+</time><aside>
+<p class="things"><span class="text-purple">《<a href="https://wz.qinzhi.cc/" target="_blank" rel="noopener">“网址导航”</a>》正式上线，汇集常用and精典网站，方便使用</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2020-09">
+9月9号
+</time><aside>
+<p class="things"><span class="text-yellow">《<a href="https://vod.qinzhi.cc/" target="_blank" rel="noopener">“顺风影院”</a>》正式上线，自动采集，VIP视频免费看</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2021-08">
+8月8号
+</time><aside>
+<p class="things"><span class="text-yellow">“老邓的博客”两次进行优化，更换<a href="https://www.boxmoe.com/" target="_blank" rel="noopener">“lolimeow主题”</a>，二次元删减</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section></article><!--分隔符-->
+
+<article>
+<h3><span class="text-red">2020年</span></h3>
+<section><time datetime="2020-09">
+9月9号
+</time><aside>
+<p class="things"><span class="text-purple">《<a href="http://notes.qinzhi.cc" target="_blank" rel="noopener">“老邓的相册”</a>》上线，采用Typecho平台，采用Time主题，大气沉稳，记录日常随拍</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2020-05">
+5月12号
+</time><aside>
+<p class="things"><span class="text-red"><del>新冠肺炎持续一年了还没有被赶走，让世界上每个人压力都好大，所以添加了新冠肺炎全球实时状况及防疫政策页面，送给需要的你</del>"</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2020-04">
+4月16号
+</time><aside>
+<p class="things"><span class="text-yellow">对“博客”进行优化，更换Akina主题，更清爽</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section></article><!--分隔符-->
+
+<article>
+<h3><span class="text-green">2019年</span></h3>
+<section><time datetime="2019-10">
+11月17号
+</time><aside>
+<p class="things"><span class="text-purple"><a href="http://zy.qinzhi.cc" target="_blank" rel="noopener">“资源站”</a>正式上线，采用zblog平台</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2019-10">
+10月16号
+</time><aside>
+<p class="things"><span class="text-purple">“我的博客”正式搭建，采用Wordpress平台搭建</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2020-09">
+9月18号
+</time><aside>
+<p class="things"><span class="text-green">摸索中申请了以自己女儿名字缩写的域名"<del>dqz.xyz</del>,<del>dqz.asia</del>,<del>deng.life</del>,<a href="http://qinzhi.cc">qinzhi.cc</a>"，开启自己无聊的做站点兴趣生涯。。。</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section><section><time datetime="2019-01">
+1月16号
+</time><aside>
+<p class="things"><span class="text-red">因为至始至终对电脑、网络等新生事物的兴趣，兴趣使然，筹划做个个人站点，不为别的，只是兴趣，申请域名、服务器。。。</span></p>
+<p class="brief"><span class="text-green">Qinzhi.CC</span></p>
+
+</aside></section></article></div>
+&nbsp;
