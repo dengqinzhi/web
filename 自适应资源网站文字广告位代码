@@ -1,0 +1,28 @@
+有些时侯为了丰富页面的显示效果，将页面制作成根据时间变换页面背景的样式，这样会使浏览者对此网站不会感觉厌倦，同时也会觉得网站制作的非常新颖。
+
+本文通过 Date 对象的 getHours() 方法获得当前时间，然后根据不同的时间段来改变页面的背景颜色，当然也可以实现更改背景图片等操作，大家也可自行研究。
+
+直接将下面的代码放在页脚文件foot或者footer里面。
+
+<script type=\"text/javascript\">
+function changeBg(){
+  var date = new Date(),
+  time = date.getHours();
+  if(time > 6 && time < 18){
+      document.body.style.backgroundColor=\"#fff222\";}
+  else{
+      document.body.style.backgroundColor=\"#000\";}
+}
+changeBg();
+</script>
+上面代码中time > 6 && time < 18为时间，指的是早上6点到晚上6点之间，可以自行修改时间。
+
+#fff222和#000为颜色代码，可以自行改修颜色。
+
+如果想换成图片的话就把上面的
+
+document.body.style.backgroundColor=\"#fff222\";
+document.body.style.backgroundColor=\"#000\";
+替换成
+
+document.body.style.backgroundImage=\"url(\'背景图片地址\')\";
