@@ -1,0 +1,28 @@
+<style>
+        fieldset {
+            border: 1.5px dashed #008cff;
+            padding: 10px;
+            border-radius: 5px;
+            line-height: 2em;
+            font-weight: 700;
+            color: var(--key-color);
+            background-color: var(--body-bg-color);
+        }
+
+        legend {
+            align-items: center;
+            margin-bottom: -2px;
+            width: 30%;
+            text-align: center;
+            background-color: #008cff;
+            border-radius: 999px;
+            background-image: linear-gradient(to right, #FFCC99, #FF99CC);
+            border: 1.5px dashed #008cff;
+        }
+    </style>
+<fieldset>
+            <legend style="color: #000">
+            免责声明：
+            </legend>
+    本站提供的一切软件、教程和内容信息仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络收集整理，版权争议与本站无关。您必须在下载后的24个小时之内，从您的电脑或手机中彻底删除上述内容。如果您喜欢该程序和内容，请支持正版，购买注册，得到更好的正版服务。我们非常重视版权问题，如有侵权请邮件与我们<a href="/delete.html" target="_blank"><strong>联系处理</strong></a>。敬请谅解！侵删请致信E-mail：995113774@qq.com
+</fieldset>
